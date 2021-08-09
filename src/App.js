@@ -8,7 +8,6 @@ const App = () => {
   return (
     <Router>
       <GlobalStyle />
-      <Navbar />
       <Hero />
     </Router>
   )
