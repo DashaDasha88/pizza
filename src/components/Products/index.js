@@ -1,9 +1,21 @@
 import React from 'react';
+import {
+  ProductsContainer,
+  ProductWrapper,
+  ProductsHeading,
+  ProductTitle,
+  ProductCard,
+  ProductImg,
+  ProductInfo,
+  ProductDesc,
+  ProductPrice,
+  ProductButton
+} from './ProductsElements';
 
-const Products = () => {
+const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
-      <ProductsHeading>Heading</ProductsHeading>
+      <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
        {data.map((product, index) => {
          return (
