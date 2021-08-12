@@ -17,7 +17,7 @@ export const productData [
     img: product2,
     alt: 'Pizza',
     name: 'Hawaiian Paradise',
-    desc: 'Marinara sauce, basil, Italian sausage, roma tomatoes, olives, and pesto',
+    desc: 'Pineapples, ham, mozzarella',
     price: '$16.99',
     button: 'Add to Cart'
   },
@@ -26,7 +26,7 @@ export const productData [
     img: product3,
     alt: 'Pizza',
     name: 'Veggie Overload',
-    desc: 'Marinara sauce, basil, Italian sausage, roma tomatoes, olives, and pesto',
+    desc: 'Green peppers, tomatoes, black olives, artichokes, mozzarella',
     price: '$14.99',
     button: 'Add to Cart'
   },
