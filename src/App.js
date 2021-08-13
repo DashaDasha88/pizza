@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <GlobalStyle />
       <Hero />
-      <Products heading="Choose yoru favourite" data={productData} />
+      <Products heading="Choose your favourite" data={productData} />
     </Router>
   )
 }
